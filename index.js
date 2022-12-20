@@ -34,7 +34,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chat-application-sand.vercel.app",
+    origin: "https://63a1dc63ff32ad145decc31c--thriving-kheer-a9feab.netlify.app",
     // credentials: true,
   },
 });
